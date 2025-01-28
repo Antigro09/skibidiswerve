@@ -7,7 +7,7 @@ import edu.wpi.first.math.kinematics.SwerveModuleState;
 
 public interface ModuleIO {
     @AutoLog
-    public static class ModuleIOInputs {
+    public class ModuleIOInputs {
         public double drivePosition = 0.0;
         public double driveVelocity = 0.0;
         public double turnPosition = 0.0;
